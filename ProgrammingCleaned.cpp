@@ -82,6 +82,7 @@ int main()
     cin >> p;
 
 
+    // While loop to initiate the program menu
     while(p == "run")
     {
         cout << "\n";
@@ -93,6 +94,7 @@ int main()
     "(5) to cancel the program\n";
     cin >> x;
 
+    // Switch function for each different option and respective functions. 
     switch(x)
     {
         case 1 :
